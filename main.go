@@ -33,13 +33,13 @@ type StressResult struct {
 }
 
 var omikujiList = []OmikujiResult{
-	{Result: "大吉", Message: "すべてがうまく最高のawsです！"},
-	{Result: "中吉", Message: "良いことが起こりそうなawsです。"},
-	{Result: "小吉", Message: "小さなawsが訪れるでしょう。"},
-	{Result: "吉", Message: "穏やかなawsになりそうです。"},
-	{Result: "末吉", Message: "努力が実を結ぶawsがあります。"},
-	{Result: "凶", Message: "慎重にawsすることをお勧めします。"},
-	{Result: "大凶", Message: "今日は控えめにaws。"},
+	{Result: "変更1大吉", Message: "すべてがうまく最高のawsです！"},
+	{Result: "変更1中吉", Message: "良いことが起こりそうなawsです。"},
+	{Result: "変更1小吉", Message: "小さなawsが訪れるでしょう。"},
+	{Result: "変更1吉", Message: "穏やかなawsになりそうです。"},
+	{Result: "変更1末吉", Message: "努力が実を結ぶawsがあります。"},
+	{Result: "変更1凶", Message: "慎重にawsすることをお勧めします。"},
+	{Result: "変更1大凶", Message: "今日は控えめにaws。"},
 }
 
 func main() {
