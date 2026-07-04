@@ -33,7 +33,7 @@ type StressResult struct {
 }
 
 var omikujiList = []OmikujiResult{
-	{Result: "変更1大吉", Message: "すべてがうまく最高のawsです！"},
+	{Result: "変更0大吉", Message: "すべてがうまく最高のawsです！"},
 	{Result: "変更1中吉", Message: "良いことが起こりそうなawsです。"},
 	{Result: "変更1小吉", Message: "小さなawsが訪れるでしょう。"},
 	{Result: "変更1吉", Message: "穏やかなawsになりそうです。"},
