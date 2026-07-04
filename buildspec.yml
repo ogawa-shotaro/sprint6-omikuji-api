@@ -20,8 +20,7 @@ phases:
       - docker push ${ECR_REPOSITORY}:latest
       - echo Build completed on `date`
       - echo Creating imagedefinitions.json...
-      - |
-       - printf '[{"name":"DeployToEcsFargateContainerName","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
+      - printf '[{"name":"DeployToEcsFargateContainerName","imageUri":"%s"}]' ${ECR_REPOSITORY}:latest > imagedefinitions.json
 
 artifacts:
   files:
