@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    ECR_REPOSITORY:828344885900.dkr.ecr.ap-northeast-1.amazonaws.com/sprint6-rebuild-repository
+    ECR_REPOSITORY: 828344885900.dkr.ecr.ap-northeast-1.amazonaws.com/sprint6-rebuild-repository
 
 phases:
   pre_build:
