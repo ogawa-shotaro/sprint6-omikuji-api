@@ -21,13 +21,7 @@ phases:
       - echo Build completed on `date`
       - echo Creating imagedefinitions.json...
       - |
-        echo '[
-          {
-            "name": "container-test-app",
-            "imageUri": "'${ECR_REPOSITORY}':latest"
-          }
-        ]' > imagedefinitions.json
-      - echo imagedefinitions.json created.
+       - printf '[{"name":"DeployToEcsFargateContainerName","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
 
 artifacts:
   files:
