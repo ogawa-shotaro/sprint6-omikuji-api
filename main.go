@@ -33,13 +33,13 @@ type StressResult struct {
 }
 
 var omikujiList = []OmikujiResult{
-	{Result: "さらにDeploy to ECS Fargateさらにさらに変更大吉", Message: "すべてがうまく最高のawsです！"},
-	{Result: "さらにDeploy to ECS Fargateさらにさらに変更中吉", Message: "良いことが起こりそうなawsです。"},
-	{Result: "さらにDeploy to ECS Fargateさらにさらに変更小吉", Message: "小さなawsが訪れるでしょう。"},
-	{Result: "Deploy to ECS Fargateさらにさらに変更", Message: "穏やかなawsになりそうです。"},
-	{Result: "Deploy to ECS Fargateさらにさらに変更末吉", Message: "努力が実を結ぶawsがあります。"},
-	{Result: "Deploy to ECS Fargateさらにさらに変更", Message: "慎重にawsすることをお勧めします。"},
-	{Result: "Deploy to ECS Fargateさらにさらに変更大凶", Message: "今日は控えめにaws。"},
+	{Result: "大吉", Message: "すべてがうまく最高のawsです！"},
+	{Result: "中吉", Message: "良いことが起こりそうなawsです。"},
+	{Result: "小吉", Message: "小さなawsが訪れるでしょう。"},
+	{Result: "吉", Message: "穏やかなawsになりそうです。"},
+	{Result: "末吉", Message: "努力が実を結ぶawsがあります。"},
+	{Result: "凶", Message: "慎重にawsすることをお勧めします。"},
+	{Result: "大凶", Message: "今日は控えめにaws。"},
 }
 
 func main() {
