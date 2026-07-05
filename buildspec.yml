@@ -23,7 +23,7 @@ phases:
       - |
         echo '[
           {
-            "name": "container-test-app",
+            "name": "sprint6-api-container",
             "imageUri": "'${ECR_REPOSITORY}':latest"
           }
         ]' > imagedefinitions.json
